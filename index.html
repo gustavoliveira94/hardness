@@ -34,15 +34,20 @@
             <a href="#">
                 <i class="fas fa-2x fa-user-circle"></i>
             </a>
-            <form action="" method="post" class="hidden">
-                <input type="email" name="email">
-                <input type="password" name="password">
+            <form action="" method="post" class="header__login--details hidden">
+                <img src="img/triangle.png">
+                <label for="login">Login:</label>
+                <input type="email" placeholder="Digite seu login" name="Login">
+                <label for="password">Senha:</label>
+                <input type="password" placeholder="Digite sua senha" name="password">
+                <input type="button" value="LOGAR">
             </form>
         </div>
     </header>
     <main class="main">
         <div class="main__featured">
-            <div class="main__featured--slide"></div>
+            <div class="main__featured--slide">
+            </div>
         </div>
         <div class="main__email">
             <input type="email" name="email" placeholder="CADASTRE SEU E-MAIL E RECEBA OFERTAS" required>
@@ -85,6 +90,7 @@
     <footer>
 
     </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

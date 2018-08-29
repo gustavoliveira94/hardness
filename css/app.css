@@ -53,9 +53,50 @@
     color: #ffffff;
 }
 
+.header__login--details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 50px;
+    background-color: #ffffff;
+    height: 150px;
+    padding: 10px;
+}
+
+.header__login--details img {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    z-index: 1001;
+    display: flex;
+    align-self: center;
+    margin-top: -25px;
+}
+
+.header__login--details input {
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+    height: 25px;
+}
+
+.header__login--details input:last-of-type {
+    height: 30px;
+    margin-bottom: 0;
+}
+
 .main__featured {
     width: 100%;
     height: 535px;
+}
+
+.main__featured--slide {
+    width: 100%;
+    height: 535px;
+    background-image: url('../img/mouse.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main__email {
@@ -106,6 +147,10 @@
     background-color: #ffffff;
     border: 1px solid #00000033;
     padding-bottom: 15px;
+}
+
+.main__product--details:hover {
+    border-bottom: 4px solid #3d006e;
 }
 
 .main__product--details a {
