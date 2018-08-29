@@ -88,15 +88,50 @@
 .main__featured {
     width: 100%;
     height: 535px;
-}
-
-.main__featured--slide {
-    width: 100%;
-    height: 535px;
-    background-image: url('../img/mouse.jpg');
+    background-image: url('../img/bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.main__featured--slide {
+    width: 80%;
+    padding: 50px 10% 0 10%;
+    height: 535px;
+    background-color: #000000e0;
+}
+
+.main__featured--slide h2 {
+    color: #ffffff;
+}
+
+.main__featured--product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+}
+
+.main__featured--details {
+    margin-top: 40px;
+    height: 400px;
+}
+
+.main__featured--details img {
+    width: 250px;
+    margin: 30px 0 30px 0;
+}
+
+.main__featured--details a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    text-decoration: none;
+    height: 380px;
 }
 
 .main__email {
@@ -127,23 +162,27 @@
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    height: 400px;
     background-color: #f5f5f5;
 }
 
-.main__product h1 {
+.main__product h2 {
     width: 100%;
+    margin-top: 25px;
     text-align: start;
 }
 
 .main__product--featured {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
+    height: 350px;
 }
 
 .main__product--details {
+    min-width: 240px;
+    margin: 50px 25px 50px 0;
     background-color: #ffffff;
     border: 1px solid #00000033;
     padding-bottom: 15px;
@@ -163,7 +202,8 @@
 }
 
 .main__product--details img {
-    width: 250px;
+    width: 150px;
+    margin: 10px;
 }
 
 footer {
