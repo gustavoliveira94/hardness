@@ -98,7 +98,7 @@
     width: 80%;
     padding: 50px 10% 0 10%;
     height: 535px;
-    background-color: #000000e0;
+    background-color: #000000a2;
 }
 
 .main__featured--slide h2 {
@@ -173,15 +173,16 @@
 
 .main__product--featured {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     width: 100%;
     height: 350px;
 }
 
 .main__product--details {
     min-width: 240px;
+    width: 25%;
+    border-radius: 5px;
     margin: 50px 25px 50px 0;
     background-color: #ffffff;
     border: 1px solid #00000033;
@@ -206,10 +207,99 @@
     margin: 10px;
 }
 
-footer {
-    width: 100%;
-    height: 400px;
+.main__facebook {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 50px 10% 50px 10%;
     background-color: #3d006e;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 50px 10% 0 10%;
+    /* height: 400px; */
+    background-color: #f5f5f5;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    background-color: #3d006e;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    border-right: 1px solid #00000031;
+}
+
+.footer__logo h2 {
+    font-size: 40px;
+}
+
+.footer__logo--icon ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer__logo--icon ul li {
+    margin: 0 10px 0 10px;
+}
+
+.footer__logo--icon ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    border-right: 1px solid #00000031;
+}
+
+.footer__menu h3 {
+    font-size: 30px;
+}
+
+.footer__menu ul {
+    text-align: center;
+    margin-top: 50px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.footer__menu ul li {
+    margin: 10px;
+}
+
+.footer__menu ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer__facebook {
+    display: flex;
+    justify-content: flex-end;
+    width: 33.33%;
 }
 
 .hidden {
