@@ -17,7 +17,8 @@
     width: 30%;
 }
 
-.header__logo a {
+.header__logo h1 a {
+    font-family: 'Bangers';
     text-decoration: none;
     color: #ffffff;
     font-size: 22px;
@@ -87,6 +88,7 @@
 }
 
 .header__menu--fixed {
+    font-family: 'Bangers';
     position: fixed;
     display: flex;
     justify-content: center;
