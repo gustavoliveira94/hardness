@@ -283,7 +283,8 @@
 }
 
 .footer__logo h2 {
-    font-size: 40px;
+    font-family: 'Bangers';
+    font-size: 44px;
 }
 
 .footer__logo--icon ul {
