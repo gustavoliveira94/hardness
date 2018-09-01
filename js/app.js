@@ -6,12 +6,13 @@ const slide3 = document.querySelector('#slide3');
 const option1 = document.querySelector('#option1');
 const option2 = document.querySelector('#option2');
 const option3 = document.querySelector('#option3');
+const menu = document.querySelector('.header__menu--fixed');
 
 function hide() {
-    if (login.classList.contains('hidden')) {
-        login.classList.remove('hidden')
+    if (login.classList.contains('transition')) {
+        login.classList.remove('transition')
     } else {
-        login.classList.add('hidden');
+        login.classList.add('transition');
     }
 }
 
@@ -35,3 +36,13 @@ function slide() {
 
 setInterval(slide, 2000);
 loginIcon.addEventListener("click", hide);
+
+function menuFixed() {
+    if(window.scrollY > 100) {
+        menu.classList.remove('transition');
+    } else {
+        menu.classList.add('transition');
+    }
+}
+
+window.addEventListener('scroll', menuFixed);
