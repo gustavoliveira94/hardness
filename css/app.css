@@ -35,13 +35,22 @@
     list-style: none;
 }
 
+.header__menu ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    width: 33%;
+    white-space: nowrap;
+}
+
 .header__menu ul li a {
     text-decoration: none;
     color: #ffffff;
 }
 
 .header__menu ul li:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid #ffffff;
 }
 
 .header__login {
