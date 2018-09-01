@@ -122,6 +122,7 @@
     width: 100%;
     padding: 10px;
     background-color: #0000009a;
+    border-radius: 5px;
     color: #ffffff;
 }
 
@@ -190,6 +191,7 @@
     width: 100%;
     padding: 10px;
     background-color: #00000033;
+    border-radius: 5px;
     width: 100%;
     margin-top: 25px;
     text-align: start;
@@ -254,7 +256,6 @@
     flex-wrap: wrap;
     width: 80%;
     padding: 50px 10% 0 10%;
-    /* height: 400px; */
     background-color: #f5f5f5;
 }
 
